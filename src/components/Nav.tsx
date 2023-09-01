@@ -5,8 +5,8 @@ import Github from "../assets/icons8-github-64.png"
 
 const Nav = () => {
   return (
-    <header className='padding-x absolute z-10 w-full'>
-        <nav className="flex justify-between items-center bg-blue-200 h-[60px] max-container">
+    <header className='sticky top-0 padding-x absolute z-10 w-full'>
+        <nav className="flex justify-between items-center h-[60px] max-container">
             <a href="/"><h2 className='text-2xl font-mono text-black font-[650] p-6'>Boom-mart</h2></a>
             <Searchbar/>
             <div className='flex justify-between items-center p-4'>
