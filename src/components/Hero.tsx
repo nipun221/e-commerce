@@ -10,8 +10,8 @@ const images = [
 
 const Hero = () => {
   return (
-    <section className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-20 max-container">
-      <div className="">
+    <section className="w-full flex xl:flex-col justify-center gap-5 max-container p-4">
+      <div>
         <SimpleImageSlider
           width={1500}
           height={570}
@@ -20,6 +20,7 @@ const Hero = () => {
           showNavs={true}
         />
       </div>
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img15/zak/igd/WhatsApp_Image_2023-09-01_at_6.07.58_PM.jpeg" alt="banner" className="w-[1500] justify-center p-4" />
     </section>
   )
 }

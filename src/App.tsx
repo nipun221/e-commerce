@@ -1,3 +1,4 @@
+import Category from "./components/Category"
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
 
@@ -5,8 +6,11 @@ const App = () => {
   return (
     <main className="relative">
       <Nav/>
-      <section className="xl:padding-l wide:padding-r padding-b">
+      <section>
         <Hero/>
+      </section>
+      <section className="p-4">
+        <Category/>
       </section>
     </main>
   )
