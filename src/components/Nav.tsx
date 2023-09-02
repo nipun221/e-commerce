@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <header className='sticky top-0 padding-x absolute z-10 w-full bg-white'>
         <nav className="flex justify-between items-center h-[60px] max-container">
-            <a href="/"><h2 className='text-2xl font-mono text-black font-[650] p-6'>Boom-mart</h2></a>
+            <a href="/"><span className='text-2xl font-sans font-[650] p-6 bg-gradient-to-r text-transparent bg-clip-text from-purple-700 to-red-500'>LaptopHub</span></a>
             <Searchbar/>
             <div className="flex gap-4 p-6">
                 <div className="icon__wrapper">
